@@ -1,4 +1,4 @@
-$(function() {
+
   describe("RSS Feeds", function() {
     /* This tests to make sure that the
      * allFeeds variable has been defined and that it is not
@@ -74,7 +74,7 @@ $(function() {
       setTimeout(function() {
         oneEntry = $(".feed .entry-link .entry");
         done();
-      }, 3000);
+      }, 2000);
     });
 
     it("There is at least a single .entry element", function(done) {
@@ -110,4 +110,4 @@ $(function() {
       done();
     });
   });
-});
+
